@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+
+<suite parallel="classes" verbose="1" name="Regression 12/03/2022" >
+
+   <test name="Specific Classe Run">
+     <classes>
+        <class name="tests.F_Alerts" />
+     </classes>
+  </test>
+ 
+<!--   <test name="All Package Classes"> -->
+<!--   <parameter name="browsername" value="firefox"/> -->
+<!--     <packages> -->
+<!--       <package name="tests" /> -->
+<!--    </packages> -->
+<!--  </test>  -->
+ 
+<!-- 	 <test name="Running on Firefox">  -->
+<!-- 	 <parameter name="browsername" value="firefox"/>  -->
+<!-- 	    <classes> -->
+<!-- 	       <class name="tests.F_Alerts" /> -->
+<!-- 	    </classes> -->
+<!-- 	 </test> -->
+ 
+<!-- 	 <test name="Running on Chrome">  -->
+<!-- 	 <parameter name="browsername" value="chrome"/>  -->
+<!-- 	    <classes> -->
+<!-- 	       <class name="tests.F_Alerts" /> -->
+<!-- 	    </classes> -->
+<!-- 	 </test> -->
+ 
+</suite>
