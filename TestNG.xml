@@ -4,11 +4,11 @@
 
 <suite parallel="classes" verbose="1" name="Regression 12/03/2022" >
 
-   <test name="Specific Classe Run">
-     <classes>
-        <class name="tests.F_Alerts" />
-     </classes>
-  </test>
+<!--   <test name="Specific Classe Run">-->
+<!--     <classes>-->
+<!--        <class name="tests.F_Alerts" />-->
+<!--     </classes>-->
+<!--  </test>-->
  
 <!--   <test name="All Package Classes"> -->
 <!--   <parameter name="browsername" value="firefox"/> -->
